@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site de E-Books</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+        .section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: #fff;
+        }
+        .book {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        .book img {
+            max-width: 150px;
+            margin-right: 20px;
+        }
+        .book-details {
+            flex: 1;
+        }
+        .book-details h3 {
+            margin: 0;
+        }
+        .buy-button {
+            background-color: #28a745;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site de E-Books</h1>
+    </header>
+    <nav>
+        <a href="#about">Sobre</a>
+        <a href="#ebooks">E-Books</a>
+        <a href="#contact">Contato</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>Sobre Mim</h2>
+            <p>Bem-vindo ao meu site de e-books! Sou um autor dedicado a criar conteúdos envolventes e informativos. Explore meus e-books e descubra novos conhecimentos e histórias.</p>
+        </section>
+        <section id="ebooks" class="section">
+            <h2>Meus E-Books</h2>
+            <div class="book">
+                <img src="ebook1.jpg" alt="E-Book 1">
+                <div class="book-details">
+                    <h3>Título do E-Book 1</h3>
+                    <p>Descrição breve do e-book 1. Este livro oferece insights valiosos sobre o tópico abordado.</p>
+                    <a href="#" class="buy-button">Comprar</a>
+                </div>
+            </div>
+            <div class="book">
+                <img src="ebook2.jpg" alt="E-Book 2">
+                <div class="book-details">
+                    <h3>Título do E-Book 2</h3>
+                    <p>Descrição breve do e-book 2. Este livro oferece insights valiosos sobre o tópico abordado.</p>
+                    <a href="#" class="buy-button">Comprar</a>
+                </div>
+            </div>
+            <!-- Adicione mais e-books conforme necessário -->
+        </section>
+        <section id="contact" class="section">
+            <h2>Contato</h2>
+            <p>Se você tiver alguma dúvida ou gostaria de entrar em contato, envie um e-mail para <a href="mailto:contato@meusite.com">contato@meusite.com</a>.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Meu Site de E-Books. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
